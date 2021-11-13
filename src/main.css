@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F4FAFF;
+    color: #08090A;
+
+}
+header{
+    height: 25vh;
+    width:100vw;
+}
+main{
+    height:50vh;
+    width:100vw;
+    display: flex;
+    justify-content:space-evenly;
+    padding:25px;
+    width:80%;
+    margin: 0 auto;
+}
+footer{
+    height:25vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.dice{
+    height:50%;
+    width:auto;
+    margin:10px;
+    
+}
+.btn{
+    height:30px;
+    width:100px;
+   
+}
+
+#title{
+    text-align: center;
+}
