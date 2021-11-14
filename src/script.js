@@ -5,7 +5,7 @@ function startScript(){
 let randomNumber1=Math.floor(Math.random()*6+1);
 let randomNumber2=Math.floor(Math.random()*6+1);
 
-const imgSource="../images/";
+const imgSource="./src/images/";
 
 let randomImg1=imgSource+"dice"+randomNumber1+".png";
 document.getElementById("dice-1").setAttribute("src",randomImg1);
